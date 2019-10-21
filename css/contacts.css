@@ -1,0 +1,12 @@
+.nav li.index{
+    background-image: none;
+}
+
+.nav li.contacts{
+    width: 100px;
+    height: 30px;
+    margin: 10px 0 0 0;
+    line-height: 29px;
+    text-align: center;
+    background-image: url(images/menu_hover.png);
+}

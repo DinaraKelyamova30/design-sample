@@ -1,0 +1,24 @@
+.text {
+    width: 50%;
+    margin: 20px 0;
+    padding-right: 40px;
+}
+
+.aboutUs {
+    width: 50%;
+    margin: 30px auto;
+}
+
+
+.nav li.index{
+    background-image: none;
+}
+
+.nav li.service{
+    width: 100px;
+    height: 30px;
+    margin: 10px 0 0 0;
+    line-height: 29px;
+    text-align: center;
+    background-image: url(images/menu_hover.png);
+}
