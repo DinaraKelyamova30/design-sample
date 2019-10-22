@@ -76,7 +76,7 @@ body {
 }
 
 
-.nav li.contacts{
+.nav li.contacts {
     width: 100px;
     height: 30px;
     margin: 10px 0 0 0;
@@ -105,32 +105,33 @@ div h2 {
     color: #77adff;
 }
 
-p{
+p {
     line-height: 20px;
     font-size: 13px;
     color: lightgray;
 }
 
 
-.form{
+.form {
     width: 70%;
     margin: 20px 300px 20px 300px;
 }
 
-.form h2{
+.form h2 {
     margin-bottom: 30px;
 }
 
-form{
+form {
     width: 70%;
-    line-height: 40px; 
+    line-height: 40px;
     text-align: start;
 }
-.contacts{
+
+.contacts {
     text-align: center;
     margin: 20px;
 }
- 
+
 .submit {
     width: 130px;
     height: 30px;
@@ -138,19 +139,22 @@ form{
     line-height: 25px;
     color: gray;
     margin: auto;
-    font-size: 15px;;
+    font-size: 15px;
+    ;
     border-radius: 10px;
     margin-left: 110px;
     margin-top: 10px;
 }
 
-input{
+input {
     border-radius: 5px;
 }
-#name{
+
+#name {
     width: 180px;
 }
-#user{
+
+#user {
     width: 197px;
 }
 

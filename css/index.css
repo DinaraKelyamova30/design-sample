@@ -59,14 +59,14 @@ body {
     text-decoration: none;
 }
 
-.nav li{
+.nav li {
     width: 100px;
     height: 30px;
     line-height: 50px;
     text-align: center;
 }
 
-.nav li.index{
+.nav li.index {
     width: 100px;
     height: 30px;
     margin: 10px 0 0 0;
