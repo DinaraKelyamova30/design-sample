@@ -140,10 +140,11 @@ hr {
 
 .paragraphUs {
     padding-top: 10px;
-    padding-right: 40px;
+    padding-right: 39px;
     color: white;
     line-height: 20px;
     font-size: 13px;
+    margin: 0 0 10px 0;
 }
 
 .textUs p {
@@ -153,7 +154,7 @@ hr {
 }
 
 .add {
-    width: 30%;
+    width: 35%;
     margin: 30px auto;
 }
 

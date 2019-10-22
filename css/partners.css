@@ -1,12 +1,277 @@
-.nav li.index{
-    background-image: none;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.nav li.partners{
+body {
+    width: 980px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #26163d;
+}
+
+
+.header {
+    margin: 10px;
+    padding: 20px 0;
+    color: white;
+    display: flex;
+}
+
+.label {
+    align-items: flex-start;
+    font-size: 15px;
+}
+
+.icons {
+    width: 75%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.icons a {
+    margin: 0 4px;
+}
+
+.nav {
+    height: 50px;
+    background-image: url(images/bg_menu.png);
+    background-size: 100%;
+}
+
+.nav ul {
+    width: 60%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav li {
+    width: 100px;
+    height: 30px;
+    line-height: 50px;
+    text-align: center;
+}
+
+
+.nav li:hover {
+    width: 100px;
+    height: 30px;
+    background-image: url(images/menu_hover.png);
+    margin: 10px 0 0 0;
+    line-height: 29px;
+}
+
+
+.nav li.partners {
     width: 100px;
     height: 30px;
     margin: 10px 0 0 0;
     line-height: 29px;
     text-align: center;
     background-image: url(images/menu_hover.png);
+}
+
+.button li.index:hover {
+    width: 100px;
+    left: 100px;
+    top: 1px;
+    text-align: center;
+    line-height: 25px;
+    background-image: url(images/btn_hover.png);
+}
+
+.main {
+    margin: 200px 10px 10px 10px;
+    background-color: #4e4e4e;
+    border: 2px solid #585858;
+    color: white;
+}
+
+hr {
+    border: 1.5px solid #434343;
+    border-radius: 2px;
+    box-shadow: 0px 1px 1px rgba(118, 118, 118, 0.5);
+}
+
+div h2 {
+    color: #77adff;
+}
+
+p {
+    line-height: 20px;
+    font-size: 13px;
+    color: lightgray;
+}
+
+.i {
+    color: white;
+    line-height: 18px;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.aside {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.img-p {
+    display: flex;
+    flex-direction: row;
+}
+
+.paragraphUs {
+    margin-top: 20px;
+}
+
+.image4 {
+    width: 200px;
+    margin: 10px 20px 0 0;
+    border: 6px solid #434343;
+}
+
+.text4 {
+    margin-top: 10px;
+}
+
+
+.aboutUs1 {
+    margin-top: 20px;
+}
+
+.group {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.group div{
+    margin-right: 30px;
+}
+
+.imge1{
+    width: 150px;
+    height: 30px;
+    background-image: url(images/flashmo.png);
+}
+
+.imge1:hover {
+    width: 150px;
+    height: 30px;
+    background-image: url(images/flashmo_hover.png);
+}
+
+
+.imge2{
+    width: 227px;
+    height: 40px;
+    background-image: url(images/templatemo.png);
+}
+
+.imge2:hover {
+    width: 227px;
+    height: 40px;
+    background-image: url(images/templatemo_hover.png);
+}
+
+.imge3{
+    width: 148px;
+    height: 30px;
+    background-image: url(images/koflash.png);
+}
+
+.imge3:hover {
+    width: 148px;
+    height: 30px;
+    background-image: url(images/koflash_hover.png);
+}
+
+.imge4{
+    width: 260px;
+    height: 40px;
+    background-image: url(images/webdesignmo.png);
+}
+
+.imge4:hover {
+    width: 260px;
+    height: 40px;
+    background-image: url(images/webdesignmo_hover.png);
+}
+
+.list {
+    margin: 20px ;
+}
+
+.list li{
+    line-height: 17px;
+    font-size: 13px;
+    color: lightgray;
+    margin-top: 30px;
+    list-style: none;
+    text-indent: -1em;
+}
+
+.list li::before {
+    content: '\25ba';
+    padding-right: 5px; 
+    color: orange;
+   }
+
+
+.button {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+
+.button a {
+    position: relative;
+    left: 86px;
+    top: 5px;
+    text-decoration: none;
+    color: lightgray;
+    font-size: 13px;
+}
+
+.button a:hover {
+    width: 100px;
+    left: 100px;
+    top: 1px;
+    text-align: center;
+    line-height: 25px;
+    background-image: url(images/btn_hover.png);
+}
+
+footer {
+    text-align: center;
+    color: gray;
+    margin: 10px;
 }

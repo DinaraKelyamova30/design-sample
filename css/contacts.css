@@ -1,6 +1,80 @@
-.nav li.index{
-    background-image: none;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body {
+    width: 980px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #26163d;
+}
+
+
+.header {
+    margin: 10px;
+    padding: 20px 0;
+    color: white;
+    display: flex;
+}
+
+.label {
+    align-items: flex-start;
+    font-size: 15px;
+}
+
+.icons {
+    width: 75%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.icons a {
+    margin: 0 4px;
+}
+
+.nav {
+    height: 50px;
+    background-image: url(images/bg_menu.png);
+    background-size: 100%;
+}
+
+.nav ul {
+    width: 60%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav li {
+    width: 100px;
+    height: 30px;
+    line-height: 50px;
+    text-align: center;
+}
+
+
+.nav li:hover {
+    width: 100px;
+    height: 30px;
+    background-image: url(images/menu_hover.png);
+    margin: 10px 0 0 0;
+    line-height: 29px;
+}
+
 
 .nav li.contacts{
     width: 100px;
@@ -9,4 +83,79 @@
     line-height: 29px;
     text-align: center;
     background-image: url(images/menu_hover.png);
+}
+
+.button li.index:hover {
+    width: 100px;
+    left: 100px;
+    top: 1px;
+    text-align: center;
+    line-height: 25px;
+    background-image: url(images/btn_hover.png);
+}
+
+.main {
+    margin: 200px 10px 10px 10px;
+    background-color: #4e4e4e;
+    border: 2px solid #585858;
+    color: white;
+}
+
+div h2 {
+    color: #77adff;
+}
+
+p{
+    line-height: 20px;
+    font-size: 13px;
+    color: lightgray;
+}
+
+
+.form{
+    width: 70%;
+    margin: 20px 300px 20px 300px;
+}
+
+.form h2{
+    margin-bottom: 30px;
+}
+
+form{
+    width: 70%;
+    line-height: 40px; 
+    text-align: start;
+}
+.contacts{
+    text-align: center;
+    margin: 20px;
+}
+ 
+.submit {
+    width: 130px;
+    height: 30px;
+    text-align: center;
+    line-height: 25px;
+    color: gray;
+    margin: auto;
+    font-size: 15px;;
+    border-radius: 10px;
+    margin-left: 110px;
+    margin-top: 10px;
+}
+
+input{
+    border-radius: 5px;
+}
+#name{
+    width: 180px;
+}
+#user{
+    width: 197px;
+}
+
+footer {
+    text-align: center;
+    color: gray;
+    margin: 10px;
 }
